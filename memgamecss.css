@@ -1,0 +1,53 @@
+.template {
+    text-align: center;
+}
+
+.card-appearance {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    cursor: pointer;
+}
+
+.card-appearance.done {
+  cursor: default;
+}
+
+.card-appearance.done:hover {
+  cursor: default;
+  box-shadow: none;
+}
+
+.card-appearance:hover {
+    border: 5px solid black;
+    box-sizing: border-box;
+}
+
+.red {
+    background-color: red;
+  }
+
+.green {
+    background-color: green;
+  }
+
+.blue {
+    background-color: blue;
+  }
+
+.orange {
+    background-color: orange;
+  }
+
+.yellow {
+    background-color: yellow;
+  }
+
+.violet {
+    background-color: violet;
+  }
+
+.before-flip {
+    background-color: darkgrey;
+}
